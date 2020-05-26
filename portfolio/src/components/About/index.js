@@ -28,7 +28,7 @@ function About() {
 
                 <div className="row main">
                     <div className="col-md-6">
-                         {/* <img src="images/me.jpg" class="me"> */}
+                         {/* <img src="./components/src/public/images/me.jpg" class="me"></img> */}
                     </div>
 
                     <div className="col-md-6 main-text">
