@@ -14,27 +14,32 @@ const Portfolio = () => {
         {
             id: 1,
             title: "Game Stat Search",
-            image: game
+            image: game,
+            route: "/game"
         },
         {
             id: 2,
             title: "Daily Planner",
-            image: planner
+            image: planner,
+            route: "/planner"
         },
         {
             id: 3,
             title: "Weather Checker",
-            image: weather
+            image: weather,
+            route: "/weather"
         },
         {
             id: 4,
             title: "Hamburger App",
-            image: burger
+            image: burger,
+            route: "/hamburger"
         },
         {
             id: 5,
             title: "Shelter Helper",
-            image: shelter
+            image: shelter,
+            route: "/shelter"
         }
     ])
 
@@ -60,9 +65,10 @@ const Portfolio = () => {
                     </Link>
             </div>
             <div class="row" id="portfolio">
+           
                 {project.map(projects => (
                     <div class="col-md-4">
-                        <Link to="/"><img src={projects.image} alt="thumbnail" /></Link>
+                        <Link to={projects.route}><img src={projects.image} alt="thumbnail" /></Link>
                         <p>{projects.title}</p>
                     </div>
                 ))}
