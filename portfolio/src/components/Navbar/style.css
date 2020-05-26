@@ -1,0 +1,55 @@
+body {
+    font-family: "Avenir";
+    /* background-color: #efe7e4; */
+    background-color: #fbf2ed;
+}
+
+.center-nav {
+    border-top: 0.5px solid #8c797f;
+    padding-top: 2rem;
+}
+
+a {
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    color: #7e7e7e;
+    display: inline;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #8c797f;
+    cursor: pointer;
+}
+
+.nav-link:active {
+    font-weight: 600;
+}
+
+#name {
+    font-family: "Avenir";
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-size: 26px;
+    color: #8c797f;
+}
+
+#career {
+    font-family: "Avenir";
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+#landing {
+    margin: auto;
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+}
+
+#intro {
+    text-align: center;
+    color: 	#8c797f;
+}
