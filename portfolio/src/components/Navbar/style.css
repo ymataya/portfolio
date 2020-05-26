@@ -1,7 +1,5 @@
 body {
     font-family: "Avenir";
-    /* background-color: #efe7e4; */
-    background-color: #fbf2ed;
 }
 
 .center-nav {
@@ -16,6 +14,10 @@ a {
     color: #7e7e7e;
     display: inline;
     font-size: 16px;
+}
+
+.nav-link {
+    display: inline;
 }
 
 a:hover {

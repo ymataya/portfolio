@@ -1,12 +1,14 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import profile from "../../images/me.jpg"
 import "./style.css";
 
 function About() {
     const location = useLocation();
+    document.body.style.backgroundColor="white";
     return (
             <div className="container">
-                <div className="row" id="landing">
+                <div className="row" id="body-page">
                     <div className="col-12" id="intro">
                         <h1 id="name">ABOUT ME</h1>
                     </div>
@@ -28,7 +30,7 @@ function About() {
 
                 <div className="row main">
                     <div className="col-md-6">
-                         {/* <img src="./components/src/public/images/me.jpg" class="me"></img> */}
+                         <img src={profile} alt="me"></img>
                     </div>
 
                     <div className="col-md-6 main-text">

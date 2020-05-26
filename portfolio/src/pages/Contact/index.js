@@ -4,9 +4,10 @@ import "./style.css";
 
 function Contact() {
     const location = useLocation();
+    document.body.style.backgroundColor="white";
     return (
         <div className="container">
-            <div className="row" id="landing">
+            <div className="row" id="body-page">
                 <div className="col-12" id="intro">
                     <h1 id="name">CONTACT</h1>
                 </div>

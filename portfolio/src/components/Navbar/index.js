@@ -4,7 +4,7 @@ import "./style.css";
 
 function Navbar() {
     const location = useLocation();
-
+    document.body.style.backgroundColor="#fbf2ed";
     return (
         <div className="container">
             <div className="row" id="landing">
