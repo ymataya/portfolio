@@ -16,7 +16,7 @@ function Contact() {
                 <Link to="/" className={location.pathname === "/" ? "nav-link:active" : "nav-link"}>
                     Home
                     </Link>
-                <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link:active" : "nav-link"}>
+                <Link to="/work" className={location.pathname === "/work" ? "nav-link:active" : "nav-link"}>
                     Portfolio
                     </Link>
                 <Link to="/about" className={location.pathname === "/about" ? "nav-link:active" : "nav-link"}>
