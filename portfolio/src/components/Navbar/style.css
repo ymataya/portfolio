@@ -2,6 +2,13 @@ body {
     font-family: "Avenir";
 }
 
+.home {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
 .center-nav {
     border-top: 0.5px solid #8c797f;
     padding-top: 2rem;
@@ -43,7 +50,6 @@ a:hover {
 
 #landing {
     margin: auto;
-    margin-top: 15rem;
     margin-bottom: 2rem;
 }
 

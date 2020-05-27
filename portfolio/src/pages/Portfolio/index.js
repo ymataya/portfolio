@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./style.css";
-import game from "../../images/game.png";
+import game from "../../images/stat-quest.jpg";
 import planner from "../../images/planner.jpg";
 import weather from "../../images/weather.jpg";
 import burger from "../../images/burger.png";
@@ -53,7 +53,7 @@ const Portfolio = () => {
             <div className="center-nav">
                 <Link to="/" className={location.pathname === "/" ? "nav-link:active" : "nav-link"}>
                     Home
-                    </Link>
+                </Link>
                 <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link:active" : "nav-link"}>
                     Portfolio
                     </Link>
@@ -65,7 +65,6 @@ const Portfolio = () => {
                     </Link>
             </div>
             <div class="row" id="portfolio">
-           
                 {project.map(projects => (
                     <div class="col-md-4">
                         <Link to={projects.route}><img src={projects.image} alt="thumbnail" /></Link>

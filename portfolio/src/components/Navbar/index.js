@@ -6,7 +6,7 @@ function Navbar() {
     const location = useLocation();
     document.body.style.backgroundColor="#fbf2ed";
     return (
-        <div className="container">
+        <div className="container home">
             <div className="row" id="landing">
                 <div className="col-12" id="intro">
                     <h1 id="name">YNA LOUISE MATAYA</h1>

@@ -1,3 +1,9 @@
 #portfolio {
     margin-top: 6rem;
 }
+
+p {
+    margin-top: 1rem;
+    color:#8c797f;
+    font-weight: 500;
+}
