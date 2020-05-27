@@ -9,7 +9,7 @@ function Navbar() {
         <div className="container home">
             <div className="row" id="landing">
                 <div className="col-12" id="intro">
-                    <h1 id="name">YNA LOUISE MATAYA</h1>
+                    <h1 id="my-name">YNA LOUISE MATAYA</h1>
                     <h6 id="career">GRAPHIC DESIGNER & WEB DEVELOPER</h6>
                 </div>
             </div>

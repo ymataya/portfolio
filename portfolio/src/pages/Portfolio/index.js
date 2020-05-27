@@ -47,7 +47,7 @@ const Portfolio = () => {
         <div class="container">
             <div className="row" id="body-page">
                 <div className="col-12" id="intro">
-                    <h1 id="name">PORTFOLIO</h1>
+                    <h1 id="my-name">PORTFOLIO</h1>
                 </div>
             </div>
             <div className="center-nav">
