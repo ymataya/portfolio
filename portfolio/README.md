@@ -7,7 +7,7 @@ Updated my portfolio by using React and adding more projects I have done for Web
 * React
 
 ## Project Preview
-![Preview](/src/images/react-port.png)
+![Preview](./src/images/react-port.png)
 
 ## Project Link:
 https://ymataya.github.io/portfolio/
